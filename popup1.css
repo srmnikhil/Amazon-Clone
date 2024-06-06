@@ -1,0 +1,45 @@
+.popup-box{
+    display: none;
+    position: fixed;
+    height: 150px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(78, 85, 78, 0.336);
+    z-index: 9998;
+}
+.popup-box:target{
+    display: block;
+}
+.popup-box:target + .overlay{
+    display: block;
+}
+.button{
+    position: absolute;
+    margin-top: 10px;
+    left: 40%;
+    width: 60px;
+    height: 30px;
+    background-color: #FF4300;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: #FF9176;
+    cursor: pointer;
+}

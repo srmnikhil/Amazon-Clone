@@ -1,0 +1,77 @@
+.container{
+  display: flex;
+  align-items: center;
+  height: 585px;
+  width: 1300px;
+}
+.center{
+  position: absolute;
+  left: 200px;
+}
+#content{
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+#progress{
+  height: 30px;
+  width: 310px;
+  margin-left: 25px;
+  background-color: rgba(26, 22, 22, 0.842);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#box{
+  width: 100px;
+  height: 20px;
+  margin-left: 25px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: rgb(255, 0, 43);
+  animation: progress 5s linear infinite;
+}
+@keyframes progress {
+0%{
+  width: 20px;
+  border-radius: 20px 10px 10px 20px;
+}
+25%{
+  width: 75px;
+  border-radius: 20px 10px 10px 20px;
+}
+50%{
+  width: 150px;
+  border-radius: 20px 10px 10px 20px;
+}
+75%{
+  width: 225px;
+  border-radius: 20px 10px 10px 20px;
+}
+100%{
+  width: 300px;
+}  
+}
+#back{
+  margin-left: 25px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+button{
+  height: 30px;
+  width: 110px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: white;
+  border: 2px solid rgb(255, 159, 15);
+  color: rgb(255, 159, 15);
+  cursor: pointer;;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+button:hover{
+  border: 2px solid rgb(255, 159, 15);
+  color: white;
+  background: rgb(255, 159, 15);
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}

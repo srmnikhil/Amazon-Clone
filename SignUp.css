@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amazon Ember';
+    box-sizing: border-box;
+}
+body{
+    line-height: 19px;
+    font-size: 13px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    text-align: center;
+}
+#logo img{
+    width: 103px;
+    padding-top: 15px;
+    margin-bottom: 13px;
+}
+.login_box{
+    width: 700px;
+    margin-left: 330px;
+    margin-right: 325x;
+}
+.login_box1{
+    width: 700px;
+}
+h1{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+#Form{
+    margin-left: 175px;
+    margin-right: 175px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 8px;
+    padding: 10px 16px 10px 16px;
+    height: 90%;
+}
+#Sign{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+label{
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+#important{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-style: italic;
+    background-image: url(Images/info.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+#username{
+    border: 1.5px solid #959595;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+}
+#username:focus{
+    background-color: #F5FEFF;
+    outline-color: #007386;
+    box-shadow: 0 0 10px #BAF4FB;
+}
+#continue_button{
+    width: 100%;
+    height: 29px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 3px;
+    padding: 1px 6px 1px 6px;
+    background-color: #FFD611;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#continue_button:hover{
+    cursor: pointer;
+    background-color: #FFC800;
+}
+#terms{
+    margin-top: 20px;
+    font-size: 12px;
+}
+#terms1{
+    text-decoration: none;
+    color: #0068C0;
+}
+#terms1:hover{
+    color: #D74D00;
+    text-decoration: underline;
+}
+#line{
+    margin-top: 30px;
+    border-top: 0.1px;
+    border-color:  #DEDEDE;
+}
+.work{
+    margin-top: 15px;
+}
+#work1{
+    font-weight: bold;
+}
+#shop{
+    margin-top: 5px;
+}
+#shop1{
+    text-decoration: none;
+    color: #0068C0;
+}
+#shop1:hover{
+    color: #D74D00;
+    text-decoration: underline;
+}
+.bottomForm{
+    margin-top: 25px;
+}
+#New{
+    border-top: 2px solid #DEDEDE;
+    border-radius: 100%;
+    color: #767676;
+    margin-bottom: 20px;
+}
+#SignIn{
+    text-decoration: none;
+    color: #0068C0;
+}
+#SignIn:hover{
+    color: #D74D00;
+    text-decoration: underline;
+}
+#line2{
+    margin-top: 25px;
+    border-color: #DEDEDE;
+    border-radius: 200%;
+}
+#footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 11px;
+    padding-left: 10px;
+}
+#footer1{
+    text-decoration: none;
+    color: #0068C0;
+    margin-right: 20px;
+}
+#footer1:hover{
+    color: #D74D00;
+    text-decoration: underline;
+}
+.footer2{
+    height: 50px;
+    width: 1360px;
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-family: cursive;
+}
+#Love{
+    font-size: large;
+    color: red;
+}
